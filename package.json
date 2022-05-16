@@ -1,0 +1,42 @@
+{
+  "name": "course_work",
+  "version": "1.0.0",
+  "description": "aggregator site",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE-ENV=development concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "puppeteer",
+    "react",
+    "express",
+    "node"
+  ],
+  "author": "Andrew Chistyakov",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "circular-json": "^0.5.9",
+    "concurrently": "^7.1.0",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.6.0",
+    "puppeteer-autoscroll-down": "^1.1.1",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.3.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "puppeteer-proxy": "^2.1.2",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

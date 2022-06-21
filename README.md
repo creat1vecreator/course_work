@@ -1,4 +1,4 @@
-# course_work
+# real_estates_scrapper
 Description
 Web service gives you the opprtunity to search available offers of real estates. 
 The information about them are taken from the avito. 
@@ -17,7 +17,7 @@ Form
 <img width="1428" alt="image" src="https://user-images.githubusercontent.com/56618507/174791489-fa9c90aa-676c-402c-999b-5a3549d9c8e5.png">
 
 Detail Page
-![Uploading image.png…]()
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/56618507/174792166-08f50ba1-3eca-4383-9cc4-6ba0381a59cf.png">
 
 
 
